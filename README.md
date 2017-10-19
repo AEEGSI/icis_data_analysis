@@ -1,28 +1,18 @@
-# IcisDataAnalysis
+# ICIS data analysis
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/icis_data_analysis`. To experiment with that code, run `bin/console` for an interactive prompt.
+Collection of classes, modules and methods used to do basic calculation and analysis on Natural Gas data provided by ICIS.
 
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'icis_data_analysis'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install icis_data_analysis
 
 ## Usage
 
-TODO: Write usage instructions here
+### PSV prices
+
+The file ``use/read_and_analyse_psv_prices.rb`` provide two methods: ``read_psv`` read an Excel file with data about PSV prices and set attributes, ``write_output`` generate an Excel file.
+
+```ruby
+ruby use/read_and_analyse_psv_prices.rb
+```
+
 
 ## Development
 
@@ -32,7 +22,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/icis_data_analysis. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/AEEGSI/icis_data_analysis. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License
